@@ -28,7 +28,7 @@ setup_params = dict(
 	description=description or name,
 	long_description=long_description,
 	url="https://github.com/yougov/" + name,
-	packages=setuptools.find_packages(),
+	packages=['pmxbot'],
 	include_package_data=True,
 	namespace_packages=name.split('.')[:-1],
 	install_requires=[
@@ -48,6 +48,9 @@ setup_params = dict(
 		"Programming Language :: Python :: 3",
 	],
 	entry_points={
+		'pmxbot_filters': [
+			'nsfw = pmxbot.nsfw:is_safe',
+		],
 	},
 )
 if __name__ == '__main__':
