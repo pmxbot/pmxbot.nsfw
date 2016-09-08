@@ -1,4 +1,4 @@
-Welcome to skeleton documentation!
+Welcome to pmxbot.nsfw documentation!
 ========================================
 
 .. toctree::
@@ -7,7 +7,7 @@ Welcome to skeleton documentation!
    history
 
 
-.. automodule:: skeleton
+.. automodule:: pmxbot.nsfw
     :members:
     :undoc-members:
     :show-inheritance:

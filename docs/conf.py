@@ -9,8 +9,8 @@ extensions = [
 ]
 
 # General information about the project.
-project = 'skeleton'
-copyright = '2016 Jason R. Coombs'
+project = 'pmxbot.nsfw'
+copyright = '2016 YouGov, Plc.'
 
 # The short X.Y version.
 version = setuptools_scm.get_version(root='..', relative_to=__file__)
@@ -28,7 +28,7 @@ link_files = {
 		replace=[
 			dict(
 				pattern=r"(Issue )?#(?P<issue>\d+)",
-				url='{GH}/jaraco/{project}/issues/{issue}',
+				url='{GH}/yougov/{project}/issues/{issue}',
 			),
 			dict(
 				pattern=r"^(?m)((?P<scm_version>v?\d+(\.\d+){1,2}))\n[-=]+\n",
