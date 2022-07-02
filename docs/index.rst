@@ -1,5 +1,5 @@
-Welcome to pmxbot.nsfw documentation!
-========================================
+Welcome to |project| documentation!
+===================================
 
 .. toctree::
    :maxdepth: 1
