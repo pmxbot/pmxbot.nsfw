@@ -1,10 +1,7 @@
 .. image:: https://img.shields.io/pypi/v/pmxbot.nsfw.svg
-   :target: `PyPI link`_
+   :target: https://pypi.org/project/pmxbot.nsfw
 
 .. image:: https://img.shields.io/pypi/pyversions/pmxbot.nsfw.svg
-   :target: `PyPI link`_
-
-.. _PyPI link: https://pypi.org/project/pmxbot.nsfw
 
 .. image:: https://github.com/pmxbot/pmxbot.nsfw/workflows/tests/badge.svg
    :target: https://github.com/pmxbot/pmxbot.nsfw/actions?query=workflow%3A%22tests%22
